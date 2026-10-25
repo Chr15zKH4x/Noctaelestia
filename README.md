@@ -9,4 +9,4 @@ It only takes 500mb+ RAM.
 You can clone this repository directly into your local state directory so Noctalia picks up the configuration instantly:
 
 ```bash
-mkdir -p ~/.local/state/noctalia && git clone https://github.com/Chr15zKH4x/Noctaelestia.git ~/.local/state/noctalia
+mkdir -p ~/.local/state/noctalia && git clone https://github.com/Chr15zKH4x/Noctaelestia.git ~/.local/state/noctalia && killall -9 noctalia && noctalia &
