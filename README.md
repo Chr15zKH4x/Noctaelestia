@@ -1,10 +1,12 @@
 # Noctaelestia 🌙✨
 
-A sleek, minimal, and deep-shadowed Wayland rice built on top of **Noctalia-Shell**, heavily inspired by the gorgeous aesthetics of **Caelestia Shell**.
+A sleek, minimal, and deep-shadowed Wayland rice built on top of **Noctalia-Shell**, heavily inspired by the gorgeous aesthetics of **Caelestia Shell**. 
+It only takes 500mb+ RAM.
 
-![Screenshots](<img width="1366" height="768" alt="screenshot_20261024_230654" src="https://github.com/user-attachments/assets/5e6ab09e-6146-4822-b424-26e82a84073a" />
-)<img width="1366" height="768" alt="screenshot_20261024_230649" src="https://github.com/user-attachments/assets/6b17cea4-e65f-477e-b2b1-8ed574972de1" />
-
+![Screenshot 1](<img width="1366" height="768" alt="screenshot_20261024_230649" src="https://github.com/user-attachments/assets/bdffa715-1bd4-4089-a433-e2e5fcd18d1d" />
+)
+![Screenshot 2] (<img width="1366" height="768" alt="screenshot_20261024_230654" src="https://github.com/user-attachments/assets/db53e98f-f54e-4479-9d39-37057d33a5c8" />
+)
 
 ## 🚀 Quick Installation
 
