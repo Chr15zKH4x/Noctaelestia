@@ -1,0 +1,6 @@
+activeBorder     = "rgba(2b467899)"
+activeBorderGrad = "rgba(583e5b99)"
+inactiveBorder   = "rgba(8e909930)"
+backgroundColor  = "rgba(111318FF)"
+pinnedWindow     = "rgba(2b4678FF)"
+pinnedWindowGrad = "rgba(583e5b77)"
