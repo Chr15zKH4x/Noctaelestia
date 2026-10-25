@@ -11,4 +11,4 @@ A sleek, minimal, and deep-shadowed Wayland rice built on top of **Noctalia-Shel
 You can clone this repository directly into your local state directory so Noctalia picks up the configuration instantly:
 
 ```bash
-git clone [https://github.com/Chr15zKH4x/Noctaelestia.git](https://github.com/Chr15zKH4x/Noctaelestia.git) ~/.local/state/noctalia_tmp && mv ~/.local/state/noctalia_tmp/noctalia ~/.local/state/noctalia && rm -rf ~/.local/state/noctalia_tmp
+git clone https://github.com/Chr15zKH4x/Noctaelestia.git ~/.local/state/noctalia_tmp && mv ~/.local/state/noctalia_tmp/noctalia ~/.local/state/noctalia && rm -rf ~/.local/state/noctalia_tmp
