@@ -1,0 +1,9 @@
+[catalog.starship]
+name = "Starship"
+category = "terminal"
+
+[templates.starship]
+input_path = "starship.toml"
+output_path = "$XDG_CACHE_HOME/noctalia/starship-palette.toml"
+post_hook = "bash '{{ config_dir }}/apply.sh'"
+undo_hook = "bash '{{ config_dir }}/undo.sh'"

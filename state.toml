@@ -1,0 +1,12 @@
+[plugin_store]
+recommendation_secret = "hvLsMr79h0dB3J5UEODxtfGnaCO_7IK-C71RcYwxcpM"
+recommended_plugin_keys = [ "community:whyoolw/dropwall" ]
+
+[security_migrations]
+calendar_credentials_v1 = true
+
+[theme_templates]
+applied_builtin_ids = "alacritty cava gtk3 gtk4 hyprland"
+
+[wallpaper_panel]
+flatten = false

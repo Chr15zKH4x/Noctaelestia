@@ -1,0 +1,229 @@
+config_version = 15
+
+[accessibility]
+ui_scale = 0.85000000521540642
+
+[bar]
+order = [ "default" ]
+
+    [bar.default]
+    capsule_radius = 8
+    center = [ "audio_visualizer", "group:g2", "theme_mode", "audio_visualizer" ]
+    color = "primary"
+    end = [ "group:g1" ]
+    font_weight = 400
+    margin_ends = 0
+    position = "left"
+    radius = 37
+    radius_bottom_left = 0
+    radius_top_left = 0
+    scale = 1.1000000089406967
+    start = [ "group:g3", "workspaces" ]
+    thickness = 44
+
+        [[bar.default.capsule_group]]
+        accordion = true
+        accordion_direction = "end"
+        border_width = 1.0
+        enabled = true
+        fill = "on_primary"
+        id = "g1"
+        members = [ "media", "tray", "network", "battery" ]
+        opacity = 1.0
+        padding = 6.0
+        radius = 8.0
+
+        [[bar.default.capsule_group]]
+        accordion = true
+        accordion_direction = "end"
+        border_width = 1.0
+        enabled = true
+        fill = "on_primary"
+        id = "g2"
+        members = [ "clock", "date" ]
+        opacity = 1.0
+        padding = 6.0
+        radius = 8.0
+
+        [[bar.default.capsule_group]]
+        accordion = true
+        accordion_direction = "end"
+        border_width = 1.0
+        enabled = true
+        fill = "on_primary"
+        id = "g3"
+        members = [ "launcher", "wallpaper" ]
+        opacity = 1.0
+        padding = 6.0
+        radius = 8.0
+
+[control_center]
+width = 600
+
+    [[control_center.shortcuts]]
+    type = "wifi"
+
+    [[control_center.shortcuts]]
+    type = "bluetooth"
+
+    [[control_center.shortcuts]]
+    type = "caffeine"
+
+    [[control_center.shortcuts]]
+    type = "power_profile"
+
+    [[control_center.shortcuts]]
+    type = "nightlight"
+
+    [[control_center.shortcuts]]
+    type = "notification"
+
+[desktop_widgets]
+schema_version = 2
+widget_order = []
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget]
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@eDP-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 683.0
+    cy = 586.0
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[plugin_settings."whyoolw/dropwall"]
+per_monitor = true
+
+[plugins]
+enabled = [ "whyoolw/dropwall" ]
+
+[shell]
+app_icon_color = "primary"
+app_icon_colorize = true
+avatar_path = "~/Pictures/wallpapers/klim-musalimov-jg5oKe_dz0E-unsplash.jpg"
+corner_radius_scale = 1.2000000178813934
+panel_anchor_bar = "default"
+
+    [shell.greeter_sync]
+    auto_sync = true
+
+    [shell.launcher]
+    categories = false
+    default_view = "all"
+    layout = "simple"
+    sort_by_usage = false
+    width = 680
+
+    [shell.panel]
+    launcher_position = "bottom_center"
+    open_near_click_control_center = true
+    open_near_click_launcher = true
+    open_near_click_session = true
+    session_placement = "floating"
+    session_position = "top_center"
+    wallpaper_placement = "floating"
+    wallpaper_position = "bottom_center"
+    wallpaper_show_names = false
+
+    [shell.session]
+    show_shortcuts = false
+
+[theme]
+community_palette = "Oxocarbon"
+mode = "light"
+source = "wallpaper"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "alacritty", "cava", "gtk3", "gtk4", "hyprland" ]
+    community_ids = [ "fastfetch" ]
+
+[wallpaper]
+directory = "~/Pictures/wallpapers"
+fill_color = "primary"
+transition = [ "disc", "honeycomb", "stripes", "wipe", "zoom" ]
+
+    [wallpaper.default]
+    path = "~/Pictures/wallpapers/1387138.png"
+
+    [wallpaper.last]
+    path = "~/Pictures/wallpapers/1387138.png"
+
+    [wallpaper.monitors.eDP-1]
+    path = "~/Pictures/wallpapers/1387138.png"
+
+    [[wallpaper.favorite]]
+    palette_source = "wallpaper"
+    path = "~/Pictures/wallpapers/1363458.png"
+    theme_mode = "light"
+    wallpaper_scheme = "dysfunctional"
+
+    [[wallpaper.favorite]]
+    palette_source = "wallpaper"
+    path = "~/Pictures/wallpapers/wallhaven-pomle9_1920x1536.png"
+    theme_mode = "dark"
+    wallpaper_scheme = "m3-content"
+
+    [[wallpaper.favorite]]
+    palette_source = "wallpaper"
+    path = "~/Pictures/wallpapers/1394722.png"
+    theme_mode = "dark"
+    wallpaper_scheme = "m3-content"
+
+    [[wallpaper.favorite]]
+    palette_source = "wallpaper"
+    path = "~/Pictures/wallpapers/1339462.png"
+    theme_mode = "dark"
+    wallpaper_scheme = "m3-content"
+
+    [[wallpaper.favorite]]
+    palette_source = "wallpaper"
+    path = "~/Pictures/wallpapers/wallpaper.webp"
+    theme_mode = "dark"
+    wallpaper_scheme = "m3-content"
+
+    [[wallpaper.favorite]]
+    palette_source = "wallpaper"
+    path = "~/Pictures/wallpapers/1387138.png"
+    theme_mode = "light"
+    wallpaper_scheme = "m3-content"
+
+[widget.audio_visualizer]
+interactive = false
+width = 98
