@@ -51,6 +51,7 @@ local menu        = "hyprlauncher"
 --
 hl.on("hyprland.start", function () 
    hl.exec_cmd("noctalia")
+   hl.exec_cmd("sudo cpupower idle-set -d 2")
    hl.exec_cmd("pw-metadata -n settings 0 clock.force-quantum 4096")
 end)
 
@@ -91,8 +92,8 @@ hl.env("HYPRCURSOR_SIZE", "24")
 -- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
 hl.config({
     general = {
-        gaps_in  = 6,
-        gaps_out = 9.9,
+        gaps_in  = 4,
+        gaps_out = 7,
 
         border_size = 2,
 
