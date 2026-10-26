@@ -306,10 +306,10 @@ hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- Laptop multimedia keys for volume and LCD brightness
 hl.bind("SUPER + A", hl.dsp.exec_cmd("noctalia msg screenshot-fullscreen"), { description = "Take sceenshots of your screen" })
-hl.bind("F10", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })
+hl.bind("F10", hl.dsp.exec_cmd("pamixer --allow-boost -i 5"), { locked = true, repeating = true })
 hl.bind("XF86PowerOff", hl.dsp.exec_cmd("noctalia msg panel-open session"), { description = "Open menu" })
-hl.bind("F9", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"),      { locked = true, repeating = true })
-hl.bind("F8",        hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),     { locked = true, repeating = true })
+hl.bind("F9", hl.dsp.exec_cmd("pamixer --allow-boost -d 5"),      { locked = true, repeating = true })
+hl.bind("F8",        hl.dsp.exec_cmd("pamixer -t"),     { locked = true, repeating = true })
 hl.bind("XF86AudioMicMute",     hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),   { locked = true, repeating = true })
 hl.bind("F7",  hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"),                  { locked = true, repeating = true })
 hl.bind("F6",hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-"),                  { locked = true, repeating = true })
